@@ -46,7 +46,7 @@ Suite oficial de testes: `tests/features.sh`
 ## Uso
 
 ```bash
-cp bin/sqlite3 ~/bin/sqlite3
+cp bin/sqlite3 $PREFIX/bin/sqlite3
 export PATH="$HOME/bin:$PATH"
 sqlite3 --version
 ```
