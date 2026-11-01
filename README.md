@@ -59,8 +59,8 @@ bash scripts/build.sh
 ## Verify
 
 ```bash
-bash scripts/verify.sh $PREFIX/bin/sqlite3
-bash tests/features.sh $PREFIX/bin/sqlite3
+bash scripts/verify.sh sqlite3
+bash tests/features.sh sqlite3
 ```
 
 ## Changelog
