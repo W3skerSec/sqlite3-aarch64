@@ -47,7 +47,6 @@ Suite oficial de testes: `tests/features.sh`
 
 ```bash
 cp bin/sqlite3 $PREFIX/bin/sqlite3
-export PATH="$HOME/bin:$PATH"
 sqlite3 --version
 ```
 
@@ -60,8 +59,8 @@ bash scripts/build.sh
 ## Verify
 
 ```bash
-bash scripts/verify.sh bin/sqlite3
-bash tests/features.sh bin/sqlite3
+bash scripts/verify.sh $PREFIX/bin/sqlite3
+bash tests/features.sh $PREFIX/bin/sqlite3
 ```
 
 ## Changelog
